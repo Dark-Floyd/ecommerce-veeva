@@ -12,6 +12,7 @@ The system includes:
 - [Architecture Diagram](#features)
 - [Scalability and Availability](#scalability-and-availability)
 - [Security](#security)
+- [Real-Time Processing](#real-time-processing)
 - [Cost Optimization](#cost-optimization)
 - [Monitoring and Performance](#monitoring-and-performance)
 - [Setup](#setup)
@@ -46,8 +47,8 @@ AWS Kinesis allows for the collection of large streams of data related to the e-
 ### Cost Optimization
 Auto-scaling ensures resources are only scaled up when needed and scaled down when traffic is lower than usual.
 Spot Instances also help us to use lower cost unused AWS capacity.
-In the ecommerce project it helps us to avoid excessive payment for unused resources.
-### Monitoring
+In the e-commerce project it helps us to avoid excessive payment for unused resources.
+### Monitoring and Performance
 Amazon CloudWatch tracks essential metrics such as CPU usage, memory, request latency, and error rates across all AWS services.
 CloudWatch can also be filtered to specific parameters.
 AWS X-Ray provides detailed tracing of requests in the services, to pinpoint performance issues.
