@@ -80,11 +80,12 @@ uvicorn app.main:app --reload
 ```
  
 ## API Endpoints
-```api/products``` - [GET] Retrieve all products.
-```api/products``` - [POST] Add a new product.
-```api/products/{:id}``` - [GET] Retrieve a specific product by ID.
-```api/products/{:id}``` - [PUT] Update an existing product.
-```api/products/{:id}``` - [DELETE] Remove a product.
+- ```api/products``` - [GET] Retrieve all products.
+- ```api/products``` - [POST] Add a new product.
+- ```api/products/{:id}``` - [GET] Retrieve a specific product by ID.
+- ```api/products/{:id}``` - [PUT] Update an existing product.
+- ```api/products/{:id}``` - [DELETE] Remove a product.
+
 ## Workflows for monitoring:
 To track and monitor crucial aspects of the e-commerce platform, I set up the following workflows with AWS Lambda:
  - Lambda to Monitor API Gateway or Load Balancers for high rates of 4xx (client) and 5xx (server) errors.
@@ -96,18 +97,18 @@ To track and monitor crucial aspects of the e-commerce platform, I set up the fo
 
 
 ## Running Tests
- After installing the ```requirements-dev.txt``` file, just run ```pytest``` to run the test file.
- Further elaboration about the tests:
-```test_create_product``` - Validates create product.
- ```test_list_products``` - Validates get products.
-``` test_update_product``` - Validates update product.
-```test_delete_product``` - Validates delete product.
+After installing the ```requirements-dev.txt``` file, just run ```pytest``` to run the test file.
+Further elaboration about the tests:
+- ```test_create_product``` - Validates create product.
+-  ```test_list_products``` - Validates get products.
+- ``` test_update_product``` - Validates update product.
+- ```test_delete_product``` - Validates delete product.
 
-```test_create_product_missing_field``` - Tests for the creation of a product with missing field.
-```test_create_product_invalid_data_type``` - Tests product creation with incorrect data types.
-```test_get_nonexistent_product``` - Tests a nonexistent product.
-```test_update_nonexistent_product``` - Tests an update on nonexistent product.
-```test_delete_nonexistent_product``` - Tests a deletion on nonexistent product.
+- ```test_create_product_missing_field``` - Tests for the creation of a product with missing field.
+- ```test_create_product_invalid_data_type``` - Tests product creation with incorrect data types.
+- ```test_get_nonexistent_product``` - Tests a nonexistent product.
+- ```test_update_nonexistent_product``` - Tests an update on nonexistent product.
+- ```test_delete_nonexistent_product``` - Tests a deletion on nonexistent product.
 
 
 Helpful Documentation:
