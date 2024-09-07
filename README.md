@@ -111,7 +111,7 @@ To track and monitor crucial aspects of the e-commerce platform, I set up the fo
 
 
 Helpful Documentation:
-[Web Application Hosting in the AWS Cloud](https://docs.aws.amazon.com/whitepapers/latest/web-application-hosting-best-practices/an-aws-cloud-architecture-for-web-hosting.html)
-[How to Move Your E-Commerce Website to Amazon Web Services](https://clutch.co/resources/how-to-move-your-e-commerce-website-to-amazon-web-services)
+- [Web Application Hosting in the AWS Cloud](https://docs.aws.amazon.com/whitepapers/latest/web-application-hosting-best-practices/an-aws-cloud-architecture-for-web-hosting.html)
+- [How to Move Your E-Commerce Website to Amazon Web Services](https://clutch.co/resources/how-to-move-your-e-commerce-website-to-amazon-web-services)
 
  
