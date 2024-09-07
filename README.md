@@ -21,7 +21,7 @@ The system includes:
 
 ## Architecture Diagram
 Diagram is attached to this repo, with explanations about each part.
-[picture here with some explnations]
+![Alt text](./Ecommerce_Diagram_final.png)
 
 ### Scalability and Availability
 To ensure scalability and availability, I used a Load Balancer (ELB), Auto-scaling groups, and a multi-AZ setup in the databases.
