@@ -11,5 +11,5 @@ class ProductCreate(ProductBase):
 class Product(ProductBase):
     id: int
 
-    class Config:
+    class ConfigDict:
         from_attributes = True  
